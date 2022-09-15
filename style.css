@@ -1,0 +1,595 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: Montserrat;font-size: 18px;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+}
+
+.logo {
+    margin-left: 15px;
+}
+
+/*Fonte Externa*/
+@font-face {
+    font-family: montserrat;
+    src: url(fonte/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+.montserrat {
+    font-family: montserrat;
+}
+
+
+/*Para ficar um de cada lado*/
+.esquerda {
+    justify-content:flex-start;
+    display: flex;
+    background-color: #40BEF4;
+    position: relative;
+    width: 80%;
+    float: left;
+    height: 85px;
+}
+
+.direita {
+    justify-content: flex-end;
+    display: flex;
+    background-color: #40BEF4;
+    position: relative;
+    width: 20%;
+    float: left;
+    height: 85px;
+}
+
+/*Menu Superior*/
+#menu-superior {
+    width: 100%;
+    height: 20px;
+}
+
+#lista-menu {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+
+#lista-menu div ul li a {
+    list-style: none;
+    color: #000;
+
+}
+
+/*Barra de Pesquisa*/
+
+.pesquisa{ 
+    width: 500px;
+    height: 40px;color: #000;
+    margin-left: 180px;
+    margin-top: 20px;
+    background-color:white;
+  border-radius: 10px;
+}
+
+.searchTerm{color: #000;
+    width: 85%;
+    height: 40px;
+    background-color:none;
+ 
+           }
+    
+
+#searchButton{color: #000;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    background-color: white;
+    
+
+}
+#lupinha{width: 100%;height: 20pxx;
+  color: black;
+ }
+
+/*Icones da Header*/
+.custom-btn-btn-1 {
+    width: 125px;
+    height: 43px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: #0868889f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.251);
+    margin-top: 20px
+}
+
+.custom-btn-btn-2 {
+    width: 60px;
+    height: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
+    background-color: #40bef4c0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 20px
+}
+
+.custom-btn-btn-3 {
+    width: 60px;
+    height: 40px;
+    margin-right: 30px;
+    border-radius: 10px;
+    background-color: #40bef4b2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 20px
+}
+
+/*Nav*/
+#menu{position: relative;}
+#menu ul li{float: left; width: auto; margin: 12px; font-size: 18px; list-style: none; margin-left: 40px;}
+#menu ul li {text-decoration: none; color: #000;}
+#menu ul li a:hover{border-bottom: 3px solid #ffdd1e;}
+/*Fim do nav*/
+a{color: #000; text-decoration: none;}
+/*Fim da Header*/
+
+
+
+/*Ozonio*/
+
+.ozonio{position: relative; background-color: #252b2e; width: 80%; height: 350px; top: 20px; float: left;}
+.ozonio img{width: 100%; height: 100%;}
+
+/*Texto Ozônio*/
+.text_home{background-color: #fff; position: relative; float: left; width: 19%; height: 350px; 
+    left: 9px; margin-top: 10px;}
+
+#um, #dois, #tres, #quatro{background-color: #40BEF4; font-size: 17px; margin: 30px; flex-direction: column; 
+  text-align: center; border-radius: 6px; box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25); height: 50px; 
+  width: auto;}
+/*Fim texto ôzonio*/
+
+/*Anuncios Alimentos*/
+#alimentos{position: relative; width: 230px; clear: left; top: 35px; left: 10px;} /*Titulo*/
+
+.container{background-color: rgb(240, 240, 240); position: relative; width: 250px; left: 5px;height: 330px;
+   margin-left: 35px; float: left; top: 50px;} /*Container que carrega a imagem e o titulo*/
+
+.a{background-color: #fff; position: absolute; width: 210px; height: 220px; left: 20px; top: 20px;} /*div que carrega as imagens*/
+.a img{width: 100%; height: 100%;}
+
+#text_alimentos{position: relative; top: 250px; font-size: 15px; left: 20px;}
+
+#preco{top: 260px; position: relative; left: 20px;}
+
+#dog{position: relative; top: 235px; left: 107px; background-color: #086888c5; border-radius: 10px; 
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25); padding: 4px; font-size: 15px;}
+/*Fim dos Alimentos*/
+
+
+/*Anuncios Favoritos*/
+
+#favoritos{position: relative; width: 300px; clear: left; top: 95px; left: 10px;}
+.container2{background-color: rgb(240, 240, 240); position: relative; width: 250px; left: 5px;height: 330px;
+    margin-left: 35px; float: left; top: 110px;}
+/*Fim Anuncios Favoritos*/
+
+/*Cadastro email*/
+.cad_email{position: relative; background-color: #40BEF4;; width: 1310px; height: 80px; top: 460px; left: 20px; border-radius: 12px;}
+#cad{position: absolute; top: 15px; left: 12px; font-size: 20px; width: 500px; color: #fff;}
+#email{position: absolute; right: 200px; top: 20px; width: 500px; height: 32px;}
+#send{position: absolute; right: 130px; top: 20px; height: 37px; background-color: #0868889f; border-radius: 10px; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border: 2px;}
+/*Mapa*/
+
+#mapa{position: relative; left: 10px; top: 250px; width: 140px;}
+
+.endereco{position: relative; background-color: #fff; width: 70%; height: 350px; float: left; 
+    margin-top: 270px; left: 10px;margin-bottom: 100px}
+
+.endereco iframe{width: 100%; height: 100%;}
+/*Fim do mapa*/
+
+.entrega{position: relative; background-color: #fff; width: 20%; height: 350px; float: left; 
+    margin-top: 270px; left: 110px;margin-bottom: 100px; 
+   }
+.entrega img{width: 100%; height: 100%;}
+
+
+
+.coisa{position:relative; margin-top: 780px;}
+
+/*pag principal fim*/
+
+
+/*pagina quem somos*//*inicio*/
+#corpo-quemsomos{
+    width: 85%;
+    height: 1500px; 
+    padding: 0px 0px 0px 100px;
+    display: flex;
+    flex-direction: column;
+  justify-content: space-evenly; align-items: center;
+}
+
+#aga1 {
+    width: 100%;
+    height: 40px;
+    padding: 0px 0px 8px 20px;
+}
+
+#p1-corpo {
+    width: 100%;
+    
+    justify-content: center;
+    background-color: #40BEF4;
+    font-size: x-large;
+    padding: 0px 10px 18px 10px;
+    border-radius: 12px;
+    text-align: justify;
+}
+
+#aga2 {
+    width: 100%;
+    height: 40px;
+    padding: 0px 0px 8px 20px;
+}
+
+#quadrado-img-curi {
+    width: 100%; border: 1px;
+    height: 800px;
+    background-color: aquamarine;
+}
+
+#img-curi {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-color: #fbf70ef1;
+    padding: 0px 0px 0px 0px;
+}
+/*pagina quem somos*//*FIM*/
+
+/*titulo adoções e dog inicio*/
+#secao-titulo {
+    font-size: 30px;
+    text-align: center;
+    color: #000;
+    padding-top: 150px;
+
+}
+
+#secao-titulo-esquerdo {
+    height: 150px;width: 15%;
+    font-size: 40px;
+    background-color: #000000EE;
+    
+}
+
+#secao-titulo-superior {
+    text-align: center;
+    padding-bottom: 50px;
+    list-style: none;
+    color:#40BEF4;
+
+}
+
+/*titulo adoções e dog fim*/
+
+
+
+.anuncio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px 20px 40px 20px;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    align-items: center;
+}
+
+.secao-superior .anuncio {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: #ccc;
+}
+
+.branco {
+    width: 20%;
+    height: 100%;
+    padding: 10px 1px 80px 1px;
+    background-color: #ccc;
+}
+
+.branco p  {
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+ }
+ .branco a{
+     color: #000;
+     font-weight: bold
+ 
+ }
+
+
+.azul{
+    width: 20%;
+    height: 100%;
+    padding: 10px 1px 80px 1px;
+    background-color: #40BEF4;
+
+}
+
+.azul p  {
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+
+ }
+ .azul a{
+     color: #000;
+     font-weight: bold
+ 
+ }
+.adoteimg{width: 100%;height: 200px;} 
+
+
+
+
+/*imagem central superior  fim*/
+
+
+/*titulo central inferior inicio */
+#secao-titulo-inferior {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color:#40BEF4; 
+    font-weight: bold
+}
+
+
+/*titulo central inferior fim*/
+
+
+
+.formulario-titulo-inferior {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#formulario-borda-inferior {
+    background-color: #ccc;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 85%;
+    padding-left: 30px;
+    font-size:20px;
+
+
+}
+
+#id-formulario {
+ display:flex;
+}
+
+#formulario {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 350px;
+    background:   #ccc;
+    border-radius: 5px;
+    margin: 120px;
+    padding-top: 20px;
+    padding-left: 120px;
+}
+
+
+
+#formulario-direito {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    margin-right: 20px;
+    margin-top: 12px;
+
+}
+
+#formulario-esquerdo {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    margin-right: 20px;
+
+}
+ label {
+    text-align: left;
+ }
+
+#raca {
+    width: 70px;
+}
+
+#formulario-h1 {
+    width: 100%;
+    height: 20%;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#button-inferior {
+    display: flex;
+    margin-top: 20px;
+}
+
+#button-i{
+width: 20%;
+height: 50px;
+margin-top: 70px;
+background-color: #40BEF4;
+border-radius: 50px;
+
+}
+#button-div{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+   }
+
+
+label {
+    width: 80px;
+    display: inline-block;
+    margin-right: 100;
+
+}
+
+input {
+    height: 30px;
+    border-radius: 10px;
+}
+
+#button {
+    margin-right: 20px;
+    height: 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+/*parte de castração titulo esquerdo inicio*/
+#titulo_esquerdo {
+    font-size: 40px;
+    background-color:#f4dc43; 
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    padding-left: 20px;
+    float: left;
+
+}
+/*parte de castração titulo esquerdo fim*/
+
+#titulo_de_cima{
+display: inline-block;
+float: left;
+}
+
+#img-coelho{
+    float: left;
+    margin-left: 31%;
+    margin-top: 100px;
+
+}
+#clho{
+    width: 800px;
+    height: 300px;
+    
+}
+.barra{
+    float: left;
+    background-color: rgb(209, 209, 209);
+}
+
+
+
+/*parte de castração formulario esquerdo inicio*/
+
+#formulario_central{
+  margin-left: 20px;
+  float: left;
+
+}
+
+#formulario-castracao{
+    margin-top: 15%;
+    margin-right: 200px;
+    float: left;
+}
+
+#imagem_castracao_direita{
+    width: 20%;
+    height: 50%;
+    margin-top: 20%;
+    margin-left: 200px;
+    border-radius: 100%;
+}
+
+.letra-formulario{
+width: 180px;
+height: 50%;
+float: left;
+
+}
+
+#texto_inferiror_catracao{
+    clear: left;
+}
+
+.input-catracao{
+    background-color:  #ccc;
+}
+#imagem-superior-catracao{display: flex;flex-direction: row;;
+  width: 100%;
+  height: 200px; background-color: #e6a7a7;
+
+}
+
+.catracao-img{
+    width: 85%;
+background-color:#d1d1d1; ;
+  
+} 
+
+
+#section-esquerda{
+  float: left;
+  background-color:red ;
+}
+
+/*parte de castração formulario esquerdo fim*/
+#imagem_castracao_direita {
+float: left;
+}
+
+
+
+/*imagem central superior  inicio*/
+
+
+/*Footer*/
+ 
+/*Footer*/
+footer{ width: 100%; color: #000; background-color: #ccc;clear: left;}
+footer .social{font-size: 25px; margin-top: 10px; margin-right: 10px; width: 15%;}
+#siga{font-size: 13px; margin-bottom: 10px;}
+footer .box{display: flex; padding-bottom: 60px;}
+footer #info{width: 25%; margin-left: 15px;}
+footer #info ul{list-style: none; display: inline; font-size: 12px;}
+footer #info ul li{margin-top: 8px;}
+
+
+/*Area para Pagina Castração*/
+#nome{background-color: #cecece;color: #000;}
